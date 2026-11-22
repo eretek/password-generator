@@ -1,0 +1,63 @@
+{
+ "tests": [
+  {
+   "in": {
+    "mode": "pw",
+    "len": 20,
+    "count": 5,
+    "up": true,
+    "low": true,
+    "dig": true,
+    "sym": true
+   },
+   "v": {
+    "bits": 126.4
+   }
+  },
+  {
+   "in": {
+    "mode": "pw",
+    "len": 16,
+    "count": 2,
+    "up": false,
+    "low": true,
+    "dig": true,
+    "sym": false,
+    "noamb": true
+   },
+   "v": {
+    "bits": 80.7
+   }
+  },
+  {
+   "in": {
+    "mode": "pp",
+    "words": 5,
+    "count": 3,
+    "sep": "-"
+   },
+   "v": {
+    "bits": 91.9
+   }
+  },
+  {
+   "in": {
+    "mode": "pw",
+    "len": 12,
+    "up": false,
+    "low": false,
+    "dig": false,
+    "sym": false
+   },
+   "err": "up"
+  },
+  {
+   "in": {
+    "mode": "pw",
+    "len": 4,
+    "up": true
+   },
+   "err": "len"
+  }
+ ]
+}
